@@ -3,10 +3,10 @@
   align-items: center;
   justify-content: space-between;
   padding: 1rem;
-  
   color: black;
 }
-.heading{
+
+.heading {
   margin-left: -10rem;
 }
 
@@ -28,7 +28,6 @@
 
 li {
   text-decoration: none;
-  color: #fff;
   padding: 1rem;
   color: rgb(32, 127, 215);
   gap: 20px;
@@ -37,11 +36,10 @@ li {
 .activeLink {
   font-weight: bold;
   background-color: blue;
-  
   gap: 20px;
 }
 
-.horizontal{
+.horizontal {
   color: black;
   height: 2px;
 }
