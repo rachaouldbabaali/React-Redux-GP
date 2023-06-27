@@ -1,3 +1,47 @@
-nav {
-  padding: 10px 15px 10px 15px;
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  
+  color: black;
+}
+.heading{
+  margin-left: -10rem;
+}
+
+.logo {
+  height: 50px;
+}
+
+.title {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  text-decoration: none;
+  color: #fff;
+  padding: 1rem;
+  color: rgb(32, 127, 215);
+  gap: 20px;
+}
+
+.activeLink {
+  font-weight: bold;
+  background-color: blue;
+  
+  gap: 20px;
+}
+
+.horizontal{
+  color: black;
+  height: 2px;
 }
