@@ -4,7 +4,6 @@ import styles from '../styles/MyProfile.module.css';
 
 const MyProfile = () => {
   const rockets = useSelector((state) => state.rocket.rockets);
-
   const rocketin = [].concat(...rockets);
 
   const filterRocketName = () => rocketin.filter((rocket) => rocket.reserved);
