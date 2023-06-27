@@ -5,7 +5,7 @@ import planet from '../images/planet.png';
 
 const Navbar = () => (
   <>
-    <nav className={styles.Navbar}>
+    <nav className={styles.navbar}>
       <img src={planet} alt="My logo" className={styles.logo} />
       <h1 className={styles.heading}>Space Travelers&apos; Hub</h1>
       <ul className={styles.navLinks}>
@@ -14,22 +14,22 @@ const Navbar = () => (
             Rockets
           </NavLink>
         </li>
-
         <li>
           <NavLink to="/missions" ClassName={styles.activeLink}>
             Missions
           </NavLink>
         </li>
-
         <li>
           <NavLink to="/my-profile" ClassName={styles.activeLink}>
             My Profile
           </NavLink>
         </li>
       </ul>
+
     </nav>
     <hr className={styles.horizontal} />
   </>
+
 );
 
 export default Navbar;
