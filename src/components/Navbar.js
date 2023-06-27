@@ -10,17 +10,17 @@ const Navbar = () => (
       <h1 className={styles.heading}>Space Travelers&apos; Hub</h1>
       <ul className={styles.navLinks}>
         <li>
-          <NavLink to="/" ClassName={styles.activeLink}>
+          <NavLink to="/Rockets" className={styles.activeLink}>
             Rockets
           </NavLink>
         </li>
         <li>
-          <NavLink to="/missions" ClassName={styles.activeLink}>
+          <NavLink to="/missions" className={styles.activeLink}>
             Missions
           </NavLink>
         </li>
         <li>
-          <NavLink to="/my-profile" ClassName={styles.activeLink}>
+          <NavLink to="/MyProfile" className={styles.activeLink}>
             My Profile
           </NavLink>
         </li>
