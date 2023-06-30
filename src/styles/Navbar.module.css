@@ -39,7 +39,7 @@ li {
 }
 
 .activeLink {
-  color : rgb(32, 127, 215);
+  color: rgb(32, 127, 215);
   gap: 20px;
   font-weight: bold;
   font-size: 1.2rem;
