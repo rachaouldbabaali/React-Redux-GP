@@ -2,16 +2,17 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem;
   color: black;
 }
 
 .heading {
-  margin-left: -10rem;
+  margin-left: -35rem;
+  font-size: 2rem;
 }
 
 .logo {
   height: 50px;
+  margin-left: 1rem;
 }
 
 .title {
@@ -33,9 +34,16 @@ li {
   gap: 20px;
 }
 
+.active {
+  text-decoration: none;
+}
+
 .activeLink {
-  font-weight: bold;
+  color: rgb(32, 127, 215);
   gap: 20px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-decoration: none;
 }
 
 .horizontal {
