@@ -1,0 +1,35 @@
+.Wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 30px;
+}
+
+h2 {
+  margin: 0 0 0.5rem 2rem;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.rocketsList {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20rem;
+}
+
+.ul {
+  list-style: none;
+  width: 30rem;
+}
+
+.list {
+  border: 1px solid black;
+  border-bottom: none;
+  padding: 0.5rem 0 1rem 1rem;
+  font-weight: 500;
+  color: black;
+}
+
+.list:last-child {
+  border-bottom: 1px solid black;
+}
