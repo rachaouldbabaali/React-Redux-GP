@@ -2,7 +2,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import myStore from '../Redux/store';
+import myStore from '../redux/store';
 import MyProfile from '../components/MyProfile';
 
 it('renders correctly', () => {
