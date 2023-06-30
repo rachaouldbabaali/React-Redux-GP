@@ -33,9 +33,16 @@ li {
   gap: 20px;
 }
 
+.active {
+  text-decoration: none;
+}
+
 .activeLink {
-  font-weight: bold;
+  color : rgb(32, 127, 215);
   gap: 20px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-decoration: none;
 }
 
 .horizontal {
