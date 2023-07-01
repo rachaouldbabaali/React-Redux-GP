@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`A test for Rockets component Check if it renders correctly 1`] = `
+<ul
+  className="rocketList"
+/>
+`;
+
+exports[`RocketsList component should render with given state from Redux store 1`] = `
+<ul
+  className="rocketList"
+>
+  <li
+    className="rocketItem"
+  >
+    <img
+      className="flickr"
+      src="https://imgur.com/DaCfMsj.jpg"
+    />
+    <div
+      className="textWrapper"
+    >
+      <h3
+        className="name"
+      />
+      <div
+        className="description"
+      >
+        <span>
+          Small-lift launch vehicle
+        </span>
+      </div>
+      <div>
+        <button
+          className="reserve"
+          onClick={[Function]}
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
+  </li>
+  <li
+    className="rocketItem"
+  >
+    <img
+      className="flickr"
+      src="https://imgur.com/1YUbhAQ.jpg"
+    />
+    <div
+      className="textWrapper"
+    >
+      <h3
+        className="name"
+      />
+      <div
+        className="description"
+      >
+        <span>
+          Medium-lift launch vehicle, designed for reuse
+        </span>
+      </div>
+      <div>
+        <button
+          className="reserve"
+          onClick={[Function]}
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
+  </li>
+  <li
+    className="rocketItem"
+  >
+    <img
+      className="flickr"
+      src="https://imgur.com/bKBenS5.jpg"
+    />
+    <div
+      className="textWrapper"
+    >
+      <h3
+        className="name"
+      />
+      <div
+        className="description"
+      >
+        <span>
+          Heavy-lift launch vehicle, designed for reuse
+        </span>
+      </div>
+      <div>
+        <button
+          className="reserve"
+          onClick={[Function]}
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
+  </li>
+  <li
+    className="rocketItem"
+  >
+    <img
+      className="flickr"
+      src="https://farm5.staticflickr.com/4599/38583829295_581f34dd84_b.jpg"
+    />
+    <div
+      className="textWrapper"
+    >
+      <h3
+        className="name"
+      />
+      <div
+        className="description"
+      >
+        <span>
+          Next-generation launch vehicle and spacecraft
+        </span>
+      </div>
+      <div>
+        <button
+          className="reserve"
+          onClick={[Function]}
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
+  </li>
+</ul>
+`;
